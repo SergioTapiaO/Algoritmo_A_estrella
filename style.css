@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+     
+}
+
+table{
+    border-style: solid;
+    border-width: 6px;
+    border-color: darkgray;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 11rem;
+    margin-top: 0;
+}
+
+td {
+    padding: 15px;
+    background-color: cornflowerblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    height: 4rem;
+    width: 4rem;
+}
+
+td:hover{
+    background: blue;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    background-position: center; 
+}
+
+#options{
+    border: darkgray solid 0.4rem;
+    padding: 0.5rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 6rem;
+    z-index: 2;
+}
+.casilla{
+    background-color: cornflowerblue;
+}
+
+.inicio{
+    background-color: green;
+}
+
+.fin{
+    background-color: red;
+}
+
+.obstaculo{
+    background-color: black;
+}
+
+.camino{
+    background-color:rgb(0, 225, 255);
+}
+
+.wayPoint{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+#radios {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#botones{
+    margin-top:2%;
+}
