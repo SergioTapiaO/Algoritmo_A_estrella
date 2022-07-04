@@ -13,3 +13,9 @@ EJEMPLOS DE USO
 
 3
 ![4](https://user-images.githubusercontent.com/98850932/177158052-1583ba1d-1393-4e21-9952-bbb214fa6270.PNG)
+
+
+ENGLISH
+
+Implementation of the A star algorithm.
+It consist on a 10x10 board, where the user can select a start point (green), an end point (red), obstacles (black) and way points (light green). Then the algorithm will proceed to calculate the shortest path from the start to the end, avoiding the obtacles and if there are passing through the way points.
